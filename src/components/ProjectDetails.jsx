@@ -45,7 +45,7 @@ function ProjectDetails({ project, onDelete, onAddTask, onDeleteTask }) {
         <input
           ref={taskRef} // 입력값 참조
           type="text"
-          placeholder="Enter a task..."
+          placeholder="작업을 입력하세요..."
           className="flex-1 px-3 py-2 rounded border border-stone-300 bg-stone-200 text-stone-700 focus:outline-none focus:border-stone-600"
         />
         <button
